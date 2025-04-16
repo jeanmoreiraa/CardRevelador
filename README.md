@@ -1,6 +1,6 @@
-Explicação dos Arquivos do Card Revelador
+## Explicação dos Arquivos do Card Revelador
 Vou explicar o que cada um dos arquivos faz neste projeto de Card Revelador, que é basicamente um cartão interativo que vira quando clicado:
-1. cardrevelador.html
+## 1. cardrevelador.html
 Este é o arquivo HTML principal que estrutura a página. Ele:
 
 Define um documento HTML básico com configurações iniciais (DOCTYPE, linguagem, meta tags)
@@ -18,14 +18,14 @@ Uma div "card-inner" com duas faces:
 
 Importa o arquivo JavaScript (script.js) para adicionar interatividade
 
-2. script.js
+## 2. script.js
 Este é o arquivo de JavaScript que adiciona a funcionalidade interativa. Ele:
 
 Seleciona o elemento com classe "card" na página
 Adiciona um event listener para detectar cliques no cartão
 Quando o cartão é clicado, ele adiciona ou remove a classe "flip", o que faz o cartão virar graças ao CSS
 
-3. style.css
+## 3. style.css
 Este arquivo CSS define toda a estilização do cartão e da página:
 
 Configura o corpo da página com fundo escuro (#0a0a0a)
